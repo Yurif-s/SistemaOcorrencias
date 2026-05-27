@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
+using SistemaOcorrencias.Domain.Repositories;
 using SistemaOcorrencias.Domain.Repositories.Classroom;
+using SistemaOcorrencias.Domain.Repositories.User;
 using SistemaOcorrencias.Infrastructure.DataAccess;
 using SistemaOcorrencias.Infrastructure.DataAccess.Repositories;
 
@@ -26,5 +27,8 @@ public static class DependencyInjectionExtension
     private static void AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IClassroomRepository, ClassroomRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
+
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
     }
 }
