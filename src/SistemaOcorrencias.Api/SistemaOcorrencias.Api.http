@@ -1,0 +1,6 @@
+@SistemaOcorrencias.Api_HostAddress = http://localhost:5141
+
+GET {{SistemaOcorrencias.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

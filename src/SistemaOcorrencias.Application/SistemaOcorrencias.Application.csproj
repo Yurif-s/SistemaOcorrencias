@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="UseCases\Occurence\GetByClassroom\" />
+    <Folder Include="UseCases\Occurence\GetAll\" />
+    <Folder Include="UseCases\Occurence\GetByStudentName\" />
+    <Folder Include="UseCases\Occurence\Create\" />
+    <Folder Include="UseCases\Occurence\Delete\" />
+    <Folder Include="UseCases\Student\Create\" />
+    <Folder Include="UseCases\Student\Delete\" />
+    <Folder Include="UseCases\User\Create\" />
+    <Folder Include="UseCases\User\Delete\" />
+  </ItemGroup>
+
+</Project>

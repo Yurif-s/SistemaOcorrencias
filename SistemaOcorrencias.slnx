@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SistemaOcorrencias.Api/SistemaOcorrencias.Api.csproj" Id="7e77f6b0-d7cc-40d5-8d32-4f53f44db471" />
+    <Project Path="src/SistemaOcorrencias.Application/SistemaOcorrencias.Application.csproj" Id="c8db5600-1e6e-4c52-a17c-baac996fc132" />
+    <Project Path="src/SistemaOcorrencias.Domain/SistemaOcorrencias.Domain.csproj" Id="3150400c-b548-4379-bb98-ca2978424beb" />
+    <Project Path="src/SistemaOcorrencias.Infrastructure/SistemaOcorrencias.Infrastructure.csproj" Id="709f4610-44d1-46df-a6d0-53fea6601fb2" />
+    <Project Path="src/SistemaOcorrencias.Web/SistemaOcorrencias.Web.csproj" Id="af706b92-b6ab-4534-9618-b9db71a88680" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
