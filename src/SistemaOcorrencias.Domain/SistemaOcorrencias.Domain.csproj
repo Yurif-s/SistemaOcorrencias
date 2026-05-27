@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\Occurence\" />
+    <Folder Include="Repositories\Student\" />
+    <Folder Include="Repositories\User\" />
+  </ItemGroup>
+
 </Project>
