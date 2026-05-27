@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SistemaOcorrencias.Domain.Repositories;
 using SistemaOcorrencias.Domain.Repositories.Classroom;
+using SistemaOcorrencias.Domain.Repositories.Student;
 using SistemaOcorrencias.Domain.Repositories.User;
 using SistemaOcorrencias.Infrastructure.DataAccess;
 using SistemaOcorrencias.Infrastructure.DataAccess.Repositories;
@@ -28,6 +29,7 @@ public static class DependencyInjectionExtension
     {
         services.AddScoped<IClassroomRepository, ClassroomRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IStudentRepository, StudentRepository>();
 
         services.AddScoped<IUnitOfWork, UnitOfWork>();
     }
